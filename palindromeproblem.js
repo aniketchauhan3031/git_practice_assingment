@@ -1,8 +1,10 @@
-let len=string.length;
-for(let i=0;i<len/2;i++){
-if(string[i]==srting[len-1-1]){
-console.log("number is palindrome");
-else
-console.log("number is not palindrome");
+let string="racecar";
+let bag="";
+for(let i=string.length-1;i>=0;i--){
+bag+=str[i];
 }
+  if(bag==string){
+console.log("palindrome");
+}else{
+console.log("Not a Palindrome");
 }

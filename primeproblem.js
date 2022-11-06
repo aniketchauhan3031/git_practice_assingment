@@ -1,9 +1,12 @@
 let num= 29
-for(let  i=2;i<=num/2;++i){
-if(num%i!=0){
-console.log("number is prime"){
-else
-consloe.log("number is not prime")
+let factor=0;
+for(let  i=1;i<=num;i++){
+if(num%i==0){
+   factor++;
 }
 }
+  if(factor==2){
+console.log("Prime");
+}else{
+console.log("Not a Prime);
 }
