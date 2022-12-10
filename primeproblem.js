@@ -8,5 +8,5 @@ if(num%i==0){
   if(factor==2){
 console.log("Prime");
 }else{
-console.log("Not a Prime);
+console.log("Not a Prime");
 }
